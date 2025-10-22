@@ -42,7 +42,8 @@ public class Main {
                     System.out.println("\n프로그램을 종료합니다.");
                     running = false;
                 } else if (0 < choice && choice <= menuData.length) {
-                    System.out.println(menuData[choice - 1][0]);
+                    System.out.printf("%d. %-15s | W %s | %s \n", choice, menuData[choice-1][0],
+                            menuData[choice-1][1], menuData[choice-1][2]);
                     break;
                 } else {
                     System.out.println("메뉴 번호를 다시 확인하고 입력해주세요.");
