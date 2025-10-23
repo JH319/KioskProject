@@ -60,7 +60,7 @@ public class Main {
                 }
                 sc.close();
             }
-            // [4] 숫자가 아닌 것을 입력 받았을 때 오류 처리하기
+            // [8] 숫자가 아닌 것을 입력 받았을 때 오류 처리하기
             catch (InputMismatchException e) {
                 System.out.println("메뉴 번호를 선택해주세요.\n");
                 sc.nextLine();
