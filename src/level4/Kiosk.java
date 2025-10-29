@@ -59,7 +59,7 @@ public class Kiosk {
 
                         System.out.printf("선택한 메뉴 : %s | W %s | %s\n", selectedItem.getName(), selectedItem.getPrice(), selectedItem.getDescription());
                         System.out.println();
-                        running = false;
+                        running2 = false;
                     } else {
                         System.out.println("메뉴 번호를 다시 확인해주세요.");
                     }
