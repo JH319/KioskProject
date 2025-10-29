@@ -34,7 +34,7 @@ public class Menu {
 
     //  메뉴 출력
     public void printMenuItem(){
-        System.out.println("\n[ " + category + " MENU ]");
+        System.out.println("\n[ " + category.toUpperCase() + " MENU ]");
         for (int i = 0; i < menuItems.size(); i++) {
             MenuItem item = menuItems.get(i);
             System.out.printf("%d. %-15s | W %s | %s \n", (i + 1), item.getName(), item.getPrice(), item.getDescription());
